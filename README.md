@@ -6,6 +6,8 @@ Welcome to Querell-AI Interviewer, an advanced chatbot powered by the formidable
 
 ## Demo
 
+https://www.loom.com/share/2984fd855cd044188b8ad91b8293d62c?sid=2d5edb9b-10a8-46da-b20b-2519ec5d5e2a
+
 https://youtu.be/Tt1qdpOpB8I
 
 ## Features
@@ -38,6 +40,7 @@ https://youtu.be/Tt1qdpOpB8I
 - PostgreSQL: Object-Relational Database for data management and storage.
 - NeonDB: Incorporating NeonDB for enhanced data management capabilities.
 - Prisma: Modern database toolkit for ORM and query building.
+- OpenAI API: Powering the advanced chatbot capabilities, providing a seamless interview experience.
 
 ## Getting Started
 
