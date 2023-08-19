@@ -1,0 +1,30 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider        = "prisma-client-js"
+  previewFeatures = ["jsonProtocol"]
+  binaryTargets   = ["native", "debian-openssl-3.0.x"]
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// prisma/schema.prisma
+
+model User {
+  id            Int           @id @default(autoincrement())
+  name          String
+  chatHistories ChatHistory[]
+}
+
+model ChatHistory {
+  id          Int      @id @default(autoincrement())
+  userId      Int
+  description String
+  chatHistory Json
+  createdAt   DateTime @default(now())
+  user        User     @relation(fields: [userId], references: [id])
+}
