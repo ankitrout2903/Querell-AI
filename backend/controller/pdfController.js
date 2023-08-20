@@ -1,5 +1,8 @@
 const pdfjs = require('pdfjs-dist/build/pdf');
 
+let pdfContent = "";
+
+
 async function getContent(fileBuffer) {
   try {
     const doc = await pdfjs.getDocument({ data: fileBuffer }).promise;
