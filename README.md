@@ -8,7 +8,14 @@ Welcome to Querell-AI Interviewer, an advanced chatbot powered by the formidable
 
 https://www.loom.com/share/2984fd855cd044188b8ad91b8293d62c?sid=2d5edb9b-10a8-46da-b20b-2519ec5d5e2a
 
+ **Youtube 👇👇**
+
 https://youtu.be/Tt1qdpOpB8I
+
+**AWS Amplify Deployed Link 👇👇**
+
+https://main.d32ba38dimvjzi.amplifyapp.com
+
 
 ## Features
 
@@ -41,6 +48,7 @@ https://youtu.be/Tt1qdpOpB8I
 - NeonDB: Incorporating NeonDB for enhanced data management capabilities.
 - Prisma: Modern database toolkit for ORM and query building.
 - OpenAI API: Powering the advanced chatbot capabilities, providing a seamless interview experience.
+- AWS Amplify: Hosting static site (Frontend/Client Deployement).
 
 ## Getting Started
 
