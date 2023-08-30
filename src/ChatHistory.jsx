@@ -20,7 +20,7 @@ function ChatHistoryPage() {
       try {
         const fetchMsg = async () => {
           try {
-            const response = await fetch("https://dbfix-dgj4adfq5q-ue.a.run.app/getAll");
+            const response = await fetch("http://localhost:8080/user/getAll");
             // localhost:8080/user/getAll
 
 
