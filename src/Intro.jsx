@@ -15,7 +15,7 @@ function NameInputComponent() {
 
   const createUser = async (name) => {
     try {
-      const response = await fetch("https://dbfix-dgj4adfq5q-ue.a.run.app/createUser", {
+      const response = await fetch("http://localhost:8080/user/createUser", {
         //http://localhost:8080/user/createUser
 
         method: "POST",
